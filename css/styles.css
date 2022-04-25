@@ -762,6 +762,7 @@ margin-bottom: 50px;
 }
 
 .contact-form-field-wrapper {
+  display: block;
   position: relative;
   margin-top: 4px;
 }
