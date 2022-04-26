@@ -714,6 +714,7 @@ margin-bottom: 50px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 528px;
+  height: 581px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -753,6 +754,7 @@ margin-bottom: 50px;
 }
 
 .contact-form-field-label {
+  display: block;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -803,6 +805,7 @@ margin-bottom: 50px;
 }
 
 .contact-form-message {
+  display: block;
   width: 100%;
   height: 120px;
   margin-top: 4px;
@@ -826,10 +829,6 @@ margin-bottom: 50px;
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-}
-
-.contact-form-checkbox-wrapper {
-  margin-bottom: 30px;
 }
 
 .contact-form-checkbox-label {
@@ -867,7 +866,9 @@ margin-bottom: 50px;
 .contact-form-submit-button {
   display: block;
   min-width: 200px;
-  margin: 0 auto;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px 55px;
   border: none;
   border-radius: 4px;
